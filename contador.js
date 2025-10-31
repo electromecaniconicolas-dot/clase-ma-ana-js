@@ -1,5 +1,6 @@
 const prompt = require('prompt-sync')();
 
+// Función para contar caracteres y palabras
 function contador(contar) {
     const longitud = contar.length;
     const textoTrim = contar.trim();
